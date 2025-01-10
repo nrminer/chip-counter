@@ -10,8 +10,15 @@
 </head>
 <body>
 <h1>🎯 Real-Time Chip Counter</h1>
-<input type="text" id="userInput" placeholder="Enter Username">
-<button onclick="trackUser()">Track Chips</button>
-<h2 id="chip-count">Chips: 0</h2>
+
+<!-- Add Player Section -->
+<input type="text" id="playerName" placeholder="Enter Player Name">
+<input type="number" id="initialChips" placeholder="Initial Chips">
+<button onclick="addPlayer()">➕ Add Player</button>
+
+<h2>Player List:</h2>
+<ul id="playerList">
+    <!-- Players will be listed here dynamically -->
+</ul>
 </body>
 </html>
