@@ -13,7 +13,7 @@ const io = socketIo(server, {
         origin: "*",  // Allow all origins for testing (Secure later for production)
         methods: ["GET", "POST"]
     }
-});r
+});
 
 // Use CORS and JSON Parsing Middleware
 app.use(cors());
