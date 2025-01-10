@@ -1,3 +1,6 @@
-# .gitignore
-node_modules/
-.env
+{
+  "rules": {
+    ".read": true,
+    ".write": "auth != null"
+  }
+}
